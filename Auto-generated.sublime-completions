@@ -1,0 +1,10 @@
+{
+  "scope": "source.php - variable.other.php",
+
+  "completions":
+  [
+  	{"trigger": "dd", "contents": "die_dump( ${1:\\$var};)" },
+  	{"trigger": "dv", "contents": "debug_var( ${1:\\$var};)" },
+	{"trigger": "dvl", "contents": "debug_var_log( ${1:\\$var};)" }
+  ]
+}

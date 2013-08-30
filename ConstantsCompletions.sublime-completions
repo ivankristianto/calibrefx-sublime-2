@@ -1,0 +1,12 @@
+{
+	"scope": "source.php - variable.other.php",
+
+	"completions":
+	[
+		"CALIBREFX_CACHE_URI",
+		"CALIBREFX_LOG_URI",
+		"CALIBREFX_SYS_URI",
+		"CALIBREFX_LANG_URI",
+		"CALIBREFX_CONFIG_URI",
+	]
+}
