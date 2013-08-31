@@ -4,9 +4,10 @@
   "completions":
   [
   	{"trigger": "dd", "contents": "die_dump( ${1:\\$var};)" },
+  	{"trigger": "ddd", "contents": "var_dump( ${1:\\$var};exit;)" },
   	{"trigger": "dv", "contents": "debug_var( ${1:\\$var};)" },
 	{"trigger": "dvl", "contents": "debug_var_log( ${1:\\$var};)" },
 	{"trigger": "get_the_content_limit", "contents": "get_the_content_limit( ${1:\\$max_char}${2:, \\$more_link_text='(more...)'}${3:, \\$stripteaser = 0}${4:, \\$wrap_open = '<p>'}${5:, \\$wrap_close='</p>'} )" },
-	{"trigger": "the_content_limit", "contents": "the_content_limit( ${1:\\$max_char}${2:, \\$more_link_text='(more...)'}${3:, \\$stripteaser = 0} )" },
+	{"trigger": "the_content_limit", "contents": "the_content_limit( ${1:\\$max_char}${2:, \\$more_link_text='(more...)'}${3:, \\$stripteaser = 0} )" }
   ]
 }
