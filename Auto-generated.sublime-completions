@@ -3,17 +3,28 @@
 
   "completions":
   [
-  	{"trigger": "dd", "contents": "die_dump( ${1:\\$var};)" },
+  	{"trigger": "dd", "contents": "die_dump( ${1:\\$var});" },
   	{"trigger": "ddd", "contents": "var_dump( ${1:\\$var});exit;" },
-  	{"trigger": "dv", "contents": "debug_var( ${1:\\$var};)" },
-	  {"trigger": "dvl", "contents": "debug_var_log( ${1:\\$var};)" },
-    {"trigger": "fd", "contents": "fire_debug( ${1:\\$var};)" },
-    {"trigger": "df", "contents": "debug_file( ${1:\\$var}${2:,$filename='debug.txt'};)" },
+  	{"trigger": "dv", "contents": "debug_var( ${1:\\$var});" },
+	  {"trigger": "dvl", "contents": "debug_var_log( ${1:\\$var});" },
+    {"trigger": "fd", "contents": "fire_debug( ${1:\\$var});" },
+    {"trigger": "df", "contents": "debug_file( ${1:\\$var}${2:,$filename='debug.txt'});" },
 	  {"trigger": "get_the_content_limit", "contents": "get_the_content_limit( ${1:\\$max_char}${2:, \\$more_link_text='(more...)'}${3:, \\$stripteaser = 0}${4:, \\$wrap_open = '<p>'}${5:, \\$wrap_close='</p>'} )" },
 	  {"trigger": "the_content_limit", "contents": "the_content_limit( ${1:\\$max_char}${2:, \\$more_link_text='(more...)'}${3:, \\$stripteaser = 0} )" },
     {"trigger": "calibrefx_add_admin_menu", "contents": "calibrefx_add_admin_menu( ${1:\\$menu_title}${2:, \\$capability}${3:, \\$menu_slug}${4:, \\$url} )" },
-    {"trigger": "calibrefx_get_image", "contents": "calibrefx_get_image( ${1:\\$args=args()})" },
+    {"trigger": "calibrefx_get_image", "contents": "calibrefx_get_image( ${1:\\$args=array()})" },
     {"trigger": "calibrefx_row_class", "contents": "calibrefx_row_class()" },
-    {"trigger": "calibrefx_container_class", "contents": "calibrefx_container_class()" }
+    {"trigger": "calibrefx_container_class", "contents": "calibrefx_container_class()" },
+    {"trigger": "calibrefx_get_site_url", "contents": "calibrefx_get_site_url()" },
+    {"trigger": "calibrefx_admin_redirect", "contents": "calibrefx_admin_redirect(${1:\\$page}${2:, \\$query_args = array()})" },
+    {"trigger": "get_current_url", "contents": "get_current_url()" },
+    {"trigger": "calibrefx_get_custom_post_meta", "contents": "calibrefx_get_custom_post_meta(${1:\\$post_id}${2:, \\$meta_key})" },
+    {"trigger": "calibrefx_get_post_meta_all", "contents": "calibrefx_get_post_meta_all(${1:\\$post_id})" },
+    {"trigger": "calibrefx_get_option", "contents": "calibrefx_get_option(${1:\\$key}${2:, \\$model=null})" },
+    {"trigger": "calibrefx_option", "contents": "calibrefx_option(${1:\\$key}${2:, \\$model=null})" },
+    {"trigger": "calibrefx_custom_field", "contents": "calibrefx_custom_field(${1:\\$field})" },
+    {"trigger": "calibrefx_get_custom_field", "contents": "calibrefx_get_custom_field(${1:\\$field})" },
+    {"trigger": "calibrefx_get_usermeta", "contents": "calibrefx_get_usermeta(${1:\\$user_id}${2:, \\$key}${3:, \\$single=true})" },
+    {"trigger": "calibrefx_usermeta", "contents": "calibrefx_usermeta(${1:\\$user_id}${2:, \\$key})" }
   ]
 }
