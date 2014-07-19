@@ -1,8 +1,8 @@
 ================
-Sublime Text 2 Calibrefx Package
+Sublime Text Calibrefx Package
 ================
 
-Sublime Text 2 Calibrefx Package is a collection of Calibrefx snippets and autocompletions for Sublime Text 2
+Sublime Text Calibrefx Package is a collection of Calibrefx snippets and autocompletions for Sublime Text 2/3
 Calibrefx is a Themes Framework for WordPress
 
 Install instructions :

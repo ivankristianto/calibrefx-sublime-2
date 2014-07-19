@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+
+	if ( have_posts() ) : 
+        while ( have_posts() ) : the_post(); // the loop
+            do_action( 'calibrefx_before_post' );
+			
+			// Do something with the loop here
+
+            do_action( 'calibrefx_after_post' );
+        endwhile;
+    else : 
+        /** if no posts exist * */
+        do_action( 'calibrefx_no_post' );
+    endif;
+]]></content>
+	<description>Create WordPress Loop</description>
+	<tabTrigger>cfx_loop</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

@@ -18,6 +18,7 @@
  * Include CalibreFx init file, this is our engine
  */
 require_once(TEMPLATEPATH . '/system/Bootloader.php');
+global $calibrefx;
 
 define('CHILD_THEME_NAME', '${1: Your Theme Name}');
 define('CHILD_THEME_URL', '${3: http://yourwebsite.com}');
@@ -25,11 +26,10 @@ define('CHILD_THEME_VERSION', '1.0.0');
 define('CHILD_THEME_DB_VERSION', '1');
 
 //We start our engine
-$CFX = & calibrefx_get_instance();
-$CFX->load->add_child_path(CHILD_URI . '/app');
+$calibrefx->load->add_child_path(CHILD_URI . '/app');
 
 //Load the autoload
-$CFX->load->do_autoload(CHILD_URI . '/app/config/autoload.php');
+$calibrefx->load->do_autoload(CHILD_URI . '/app/config/autoload.php');
 
 ]]></content>
 	<description>Initialize CalibreFx Child Theme Function</description>
